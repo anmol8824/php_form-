@@ -1,0 +1,39 @@
+<HTML>
+<HEAD>
+<LINK REL="STYLESHEET" href="anmol.css">
+<TITLE>login</TITLE>
+</head>
+<body style="text-align:center;color:black;font-weight:bold;">
+<div class=login>
+<form action="anmol.php" method="post" enctype="multipart/form-data"> 
+<div style="text-align:center; font-size:20">
+      <br><br> <br > <label>Enter Name =</label>
+	  <input type="text" name="firstname" placeholder="First Name">
+            <input type="text" name="lastname" placeholder="Last Name"><br><br>
+      <br ><label>DOB =</label>
+      <input type="date" name="calender" > <br><br>
+	  <br ><label>Gender =</label>
+	  <input type="radio" name="gender" value="Male">Male
+      <input type="radio" name="gender"value="female"> Female
+      <input type="radio" name="gender"value="others"> Others<br><br>
+	  <label >ID Proof=</label>
+            <select name="select">
+               <option value="Aadhar">Aadhar Card</option>
+               <option value="License">License</option>
+               <option value="voter">Voter ID</option>
+               <option value="Pan">Pan Card</option>
+           </select><br><br><br>
+           <label>Upload Proof=</label>
+           <input type="file" name="Document"><br><br>
+           <label>Upload Image=</label>
+           <input type="file" name="uploadfile"><br><br> <br><br>
+      <input type="submit" value="submit" class=btnt>
+      <input type="reset" value="reset" class=btnt >
+	  
+	   <div style="text-align:center;FONT-SIZE:50;color:WHITE;text-shadow:2px 2px grey;font-weight:bold;"><BR>
+	  <label>THANKS FOR SUBMITTING</LABEL> </DIV></div>
+	  </div>
+    </form>
+    </script>
+  </body>
+</html>
